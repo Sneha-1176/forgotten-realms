@@ -235,7 +235,7 @@ const OracleSection: React.FC = () => {
       {/* ===== RESTORED ANCIENT BACKGROUND ===== */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/images/scene4-sanctum.jpg)' }}
+        style={{ backgroundImage: 'url(${import.meta.env.BASE_URL}images/scene4-sanctum.jpg)' }}
       />
 
       {/* Dark stone overlay */}
@@ -582,7 +582,7 @@ const OracleSection: React.FC = () => {
 
                   {/* The hat image */}
                   <img
-                    src="/images/sorting-hat-logo.png"
+                    src={`${import.meta.env.BASE_URL}images/sorting-hat-logo.png`}
                     alt="The Ancient Oracle's Hat"
                     className="w-full h-full object-contain relative z-10"
                     style={{
@@ -658,7 +658,7 @@ const OracleSection: React.FC = () => {
                   >
                     <div className="flex items-center gap-3 mb-3">
                       <img
-                        src="/images/sorting-hat-logo.png"
+                        src={`${import.meta.env.BASE_URL}images/sorting-hat-logo.png`}
                         alt="thinking"
                         className="w-7 h-7 object-contain"
                         style={{ animation: 'hatThink 1.2s ease-in-out infinite', mixBlendMode: 'screen' }}
