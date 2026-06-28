@@ -8,7 +8,7 @@ const MapSection: React.FC = () => {
       {/* Background image - the cartographer's table */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/images/scene2-table.jpg)' }}
+        style={{ backgroundImage: 'url(${import.meta.env.BASE_URL}images/scene2-table.jpg)' }}
       />
 
       {/* Dark overlay for the table background */}
