@@ -23,7 +23,7 @@ const AncientMap: React.FC = () => {
       <div
         className="absolute inset-0 rounded-lg overflow-hidden vignette parchment-noise"
         style={{
-          backgroundImage: 'url(/images/parchment-map.jpg)',
+          backgroundImage: 'url(${import.meta.env.BASE_URL}images/parchment-map.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
