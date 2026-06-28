@@ -98,7 +98,7 @@ const LoreSection: React.FC = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/scene3-cave.jpg)',
+          backgroundImage: 'url(${import.meta.env.BASE_URL}images/scene3-cave.jpg)',
           filter: 'sepia(0.35) saturate(0.85) hue-rotate(-8deg) brightness(0.92)',
         }}
       />
