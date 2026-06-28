@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const HERO_IMAGE = '/images/scene1-landscape.jpg';
+const HERO_IMAGE = `${import.meta.env.BASE_URL}images/scene1-landscape.jpg`;
 
 const HeroSection: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
